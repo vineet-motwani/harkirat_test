@@ -1,0 +1,14 @@
+TEST CASE 1 -
+Input: dictionary = ["wxyz","xyz","axyz"], queryString = ["yz","xyz","abc"]
+
+Output: [1,1,1]
+
+Explain - 
+For queryString[0] = "yz", strings from dictionary that share the longest common postfix "yz" are at indices 0, 1, and 2. Among these, the result is the string at index 1 because it has the shortest length of 3.
+For queryString[1] = "xyz", strings from dictionary that share the longest common postfix "xyz" are at indices 0, 1, and 2. Among these, the result is the string at index 1 because it has the shortest length of 3.
+For queryString[2] = "xyz", there is no string from dictionary that shares a common postfix. Hence the longest common postfix is "", that is shared with strings at index 0, 1, and 2. Among these, the result is the string at index 1 because it has the shortest length of 3.
+
+TEST CASE 2 -
+Input: dictionary = ["abcdefgh","poiuygh","ghghgh"], queryString = ["gh","acbfgh","acbfegh"]
+
+Output: [2,0,2]

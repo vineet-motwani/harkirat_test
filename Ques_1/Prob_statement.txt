@@ -1,0 +1,8 @@
+We have two arrays of strings, dictionary and queryString. 
+For each string in queryString, find the string in dictionary that has the longest postfix that is same in both the query string and the string in dictionary. 
+If there are more than one matches with the same length of postfix, choose the shortest string. 
+If there are still ties, select the string that appears first in dictionary.
+
+Return an array of numbers where each number is the index of the best matching string from dictionary for each query in queryString.
+
+Note : A postfix is a substring of a string which atleast contains the last character of the string.

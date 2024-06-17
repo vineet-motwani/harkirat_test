@@ -1,0 +1,6 @@
+Alex and Bob are examining a collection of phrases. 
+They define a pair as successful pair if one phrase is both a prefix and a suffix of the other phrase in the pair. 
+For example, if Alex finds that "aba" can be both a prefix and a suffix of "ababa", he marks it as a successful pair. 
+However, if Bob checks "abc" and "abcd" and finds that "abc" is not both a prefix and a suffix of "abcd", he discards that pair.
+
+Now, they need your help to count all successful pairs in the collection of phrases.
